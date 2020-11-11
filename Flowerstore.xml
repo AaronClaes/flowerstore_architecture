@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasicRestAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Flowerstore.Controllers.FlowersController.GetFlowerById(System.Int32)">
+            <summary>
+            Gets you a list of all the flowers.
+            </summary>
+            <param name="FlowerId">The unique identifier of the flower</param>
+            <returns>A list of flowers</returns>
+        </member>
+        <!-- <member name="M:Flowerstore.Controllers.StoresController.AddCarToGarage(System.Int32,BasicRestAPI.Model.Web.CarUpsertInput)">
+            <summary>
+            Creates a new car inside a garage. A 404 means that the garage with said id does not exist.
+            </summary>
+            <param name="garageId">The unique identifier of the garage</param>
+            <param name="input">The body of the garage</param>
+            <returns></returns>
+        </member>
+        <member name="P:Flowerstore.Model.Web.CarUpsertInput.Color">
+            <summary>
+            The color of the car.
+            </summary>
+        </member>
+        <member name="P:Flowerstore.Model.Web.CarWebOutput.Id">
+            <summary>
+            This is an identifier that is guaranteed to be unique within the context of a single instance of our API,
+            </summary>
+        </member> -->
+    </members>
+</doc>
